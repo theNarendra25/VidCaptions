@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className + " bg-gradient-to-b from-bg-gradient-from to-bg-gradient-to min-h-screen text-white"}>
-        <main className="py-4 px-16 max-w-2xl mx-auto">
+        <main className="py-4 px-4 max-w-2xl mx-auto sm:px-16">
           <header className="flex justify-between justify-center mb-4">
             <Link href="/" className="flex gap-1">
               <SparklsIcon />
